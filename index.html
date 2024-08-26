@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+</head>
+
+<body>
+
+<div class="hero-image">
+ 
+  <h1 class="hero-text">Otahuhu College Netball</h1>
+</div>
+<div class="topnav">
+  <div>
+   
+</div>
+
+
+<div class="navbar">
+  <a href="Link.html">Link</a>
+  <a href="notices.html">Notices</a>
+  <a href="Contact.html">contact</a>
+    <a href="Rules.html">Rules</a>
+  <a href="index.html" class="right">Home</a>
+</div>
+
+
+
+  <section class="two-column">
+    <div class="image">
+        <img src="images/thumbnail_IMG_3155.jpg" alt="loch ness">
+    </div>
+       <div class="info">
+        <h1>Information about netball</h1>
+        <p>Loch Ness is a large freshwater loch in the Scottish Highlands extending for approximately 37 kilometres (23 miles) southwest of Inverness. It takes its name from the River Ness,
+             which flows from the northern end. Loch Ness is best known for claimed sightings of the cryptozoological Loch Ness Monster, also known affectionately as "Nessie" (Scottish Gaelic: Niseag). It is one of a series of interconnected, murky bodies of water in Scotland; its water visibility is exceptionally low due to the high peat content of the surrounding soil. At 56 km2 (22 sq mi), Loch Ness is the second-largest Scottish loch by surface area after Loch Lomond, but due to its great depth it is the largest by volume in Great Britain. Its deepest point is 230 metres (126 fathoms; 755 feet), making it the second deepest loch in Scotland after Loch Morar. </p>
+    </div>
+  </section>
+  <section class="two-column">
+      <div class="info">
+        <h1>Information about Otahuhu College Netball team</h1>
+        <p>Loch Ness is a large freshwater loch in the Scottish Highlands extending for approximately 37 kilometres (23 miles) southwest of Inverness. It takes its name from the River Ness,
+             which flows from the northern end. Loch Ness is best known for claimed sightings of the cryptozoological Loch Ness Monster, also known affectionately as "Nessie" (Scottish Gaelic: Niseag). It is one of a series of interconnected, murky bodies of water in Scotland; its water visibility is exceptionally low due to the high peat content of the surrounding soil. At 56 km2 (22 sq mi), Loch Ness is the second-largest Scottish loch by surface area after Loch Lomond, but due to its great depth it is the largest by volume in Great Britain. Its deepest point is 230 metres (126 fathoms; 755 feet), making it the second deepest loch in Scotland after Loch Morar. </p>
+    </div>
+    <div class="image">
+      <img src="images/thumbnail_IMG_3154.jpg" alt="loch ness">
+  </div>
+  </section>
+  <section class="two-column">
+    <div class="image">
+        <img src="images/Screenshot 2024-08-16 093323 HISTORY OF NETBALL.png" alt="loch ness">
+    </div>
+       <div class="info">
+        <h1>History of netball in New Zealand</h1>
+        <p>History. Netball was introduced to New Zealand as 'women's basketball' in 1906 or 1907 by Rev. J. C. Jamieson. The game spread across New Zealand through primary and secondary schools, although different playing rules emerged in different areas.</p>
+  
+  <h1>Facts about the histroy of netball</h1>
+  <div> 
+    <ul>
+      <li>1897: The game was invented in USA and called basketball.</li>
+      <li>1897: Netball was played for the first time.</li>
+      <li>1900: The Physical Education Association creates the first set of rules.</li>
+      <li>1926: The All England Net Ball Association is formed.</li>
+      <li>1932: The first national competition was played.</li>
+      <li>1949: The first international matches were played between England, Scotland and Wales.</li>
+      <li>1960: A new international code of rules was adopted, with the names of positions and match length changed.</li>
+      <li>1895: Netball was first played in England at Madame Ostenburg's College. </li>
+      <li>Netball is the most popular sport played by women. Women's sport in Oceania has traditionally had a very low profile.</li>
+      <li>Netball differs in many ways from basketball, principally in the absence of the backboards from the hoop or goal ring and the prohibition of dribbling, bouncing, and running while in possession of the ball. Physical player contact is more controlled than in basketball.</li>
+    </ul>  
+</div>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="images/image 3.png" style="width:100%">
+  <div class="text">Netball</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/Screenshot 2024-08-16 093709 History 2.png" style="width:100%">
+  <div class="text">back in the</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="images/Screenshot 2024-08-16 094217.png" style="width:100%">
+  <div class="text">1990s</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
