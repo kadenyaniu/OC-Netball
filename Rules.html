@@ -22,9 +22,9 @@
 <div class="navbar">
   <a href="Link.html">Link</a>
   <a href="notices.html">Notices</a>
-  <a href="Contact.html">contact</a>
+  <a href="Contact.html">Contact</a>
     <a href="Rules.html">Rules</a>
-  <a href="Index.html" class="right">Home</a>
+  <a href="index.html" class="right">Home</a>
 </div>
 
 
@@ -75,118 +75,42 @@ body {
 <body>
 
 
+  <html>
+<body>
+
+
+
   
 
-</ul>  
-
-
-<section class="two-column">
-        <div class="image">
-        <!-- slide-->
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span> 
-    <span class="dot" onclick="currentSlide(2)"></span> 
-    <span class="dot" onclick="currentSlide(3)"></span> 
-  </div>
-
-
-<script>
-let( slideIndex) = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
-
-</section>
-
-<div class="slideshow-container">
-
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="images/thumbnail_IMG_3160.jpg" style="width:100%">
-    <div class="text">Talks before the game</div>
-  </div>
-  
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="images/thumbnail_IMG_3159.jpg" style="width:100%">
-    <div class="text">Boys Netball game</div>
-  </div>
-  
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="images/thumbnail_IMG_3156.jpg" style="width:100%">
-    <div class="text">Girls Netball game</div>
-  </div>
-  
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
-  <script>
-    let slideIndex
-    showSlides(slideIndex);
-    
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-    
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-    </script>
-    
-  </div>
-  <section class="two-column">
-    <div class="image">
-        <img src="images/NETBALL COURT.png" alt="loch ness">
-    </div>
-       <div class="info">
-        <h1>Netball Rules</h1>
-        <ul>
-          <li>No walking or running with ball</li>
-          <li>Nails must be cut short</li>
-          <li>You can only take one step before passing the ball</li>
-          <li>Each position has their own rules that must be followed</li>
-          <li>3 Second hold with ball</li>
-          <li>3feet away when you're defending</li>
-          <li>Player cannot make physical contact with one another</li>
-          <li>No earing must be worn during games</li>
-          <li>You must be atleast 3feet away from passing the ball to a player</li>
-          <li>No chewing gum on the courts</li>
-          <li>Centers can run everywhere around the courts except for the circle on the side</li>
-          <li>GD  </li>
-        </ul>  
-    </div>
-  </section>
-<!--finish slide-->
-<section class="two-column">
-  <div class="image">
-      <img src="images/thumbnail_IMG_3157 (1).jpg" alt="loch ness">
-  </div>
-        
 
  
+
+
+
+<section class="two-column">
+  <div class="info">
+    
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/vQ3DHGB6UVE?si=IBxbXfA7wbwk2ZSi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h1>Netball Rules</h1>
+    <ul>
+      <li>No walking or running with ball</li>
+      <li>Nails must be cut short</li>
+      <li>You can only take one step before passing the ball</li>
+      <li>Each position has their own rules that must be followed</li>
+      <li>3 Second hold with ball</li>
+      <li>3feet away when you're defending</li>
+      <li>Player cannot make physical contact with one another</li>
+      <li>No earing must be worn during games</li>
+      <li>You must be atleast 3feet away from passing the ball to a player</li>
+      <li>No chewing gum on the courts</li>
+      <li>Centers can run everywhere around the courts except for the circle on the side courts</li>
+    </ul>  
+</div>
+<div class="image">
+  <img src="images/thumbnail_IMG_3157.jpg" alt="loch ness">
+</div>
+</section>
+</div>
 </body>
 </html>
 
